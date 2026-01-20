@@ -22,7 +22,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={'${bricolage.variable} antialiased'}>
-        <ClerkProvider appearance={{ variables: { colorPrimary: '#222873' }} }>
+        <ClerkProvider appearance={{ variables: { colorPrimary: '#222873' }} } publishableKey ={'pk_test_d2VsbC1lc2NhcmdvdC0xOS5jbGVyay5hY2NvdW50cy5kZXYk'}>
           <Navbar />
           {children}
         </ClerkProvider>
